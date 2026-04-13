@@ -1,0 +1,339 @@
+   <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riwayat & Portofolio - Faris Fudhaili</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="mainNavbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="bi bi-person-badge-fill me-2"></i>Faris Fudhaili
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="bi bi-house-fill me-1"></i>Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="portofolio.html"><i class="bi bi-journal-text me-1"></i>Riwayat & Portofolio</a>
+                    </li>
+                    <li class="nav-item ms-lg-2">
+                        <a class="btn btn-outline-light btn-sm px-3" href="index.html#kontak">
+                            <i class="bi bi-envelope-fill me-1"></i>Kontak
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <section class="page-header py-5">
+        <div class="container text-center">
+            <h1 class="display-5 fw-bold text-white">Riwayat & Portofolio</h1>
+            <p class="text-white-50 lead mt-2">Jejak pendidikan dan karya yang telah saya hasilkan</p>
+            <nav aria-label="breadcrumb" class="d-flex justify-content-center mt-3">
+                <ol class="breadcrumb breadcrumb-custom">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-white-50"><i class="bi bi-house me-1"></i>Beranda</a></li>
+                    <li class="breadcrumb-item active text-white">Riwayat & Portofolio</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+    <div class="container my-5">
+
+        <!-- TABS NAV PILLS -->
+        <ul class="nav nav-pills justify-content-center mb-5 gap-2" id="portoTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active px-4" data-bs-toggle="pill" data-bs-target="#pendidikan" type="button">
+                    <i class="bi bi-mortarboard-fill me-2"></i>Riwayat Pendidikan
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link px-4" data-bs-toggle="pill" data-bs-target="#proyek" type="button">
+                    <i class="bi bi-folder-fill me-2"></i>Proyek
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link px-4" data-bs-toggle="pill" data-bs-target="#sertifikat" type="button">
+                    <i class="bi bi-patch-check-fill me-2"></i>Sertifikat
+                </button>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+
+            <!-- TAB 1: PENDIDIKAN -->
+            <div class="tab-pane fade show active" id="pendidikan">
+                <div class="section-header text-center mb-4">
+                    <h2 class="section-title">Riwayat Pendidikan</h2>
+                    <div class="title-underline mx-auto"></div>
+                    <p class="text-muted mt-3">Berikut adalah jenjang pendidikan yang telah saya tempuh</p>
+                </div>
+
+                <!-- Edu Cards -->
+                <div class="row g-4 mb-5">
+                    <div class="col-md-6 col-xl-3">
+                        <div class="card edu-card h-100 border-0 shadow-sm">
+                            <div class="edu-card-top bg-primary"></div>
+                            <div class="card-body p-4">
+                                <div class="edu-number">01</div>
+                                <span class="badge bg-primary mb-2">2011 – 2017</span>
+                                <h5 class="card-title fw-bold mt-1">Sekolah Dasar</h5>
+                                <p class="card-text text-muted small">SD Fatih Bilingual School</p>
+                                <hr>
+                                <div class="d-flex align-items-center gap-2">
+                                    <i class="bi bi-geo-alt-fill text-primary"></i>
+                                    <small class="text-muted">Banda Aceh</small>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 mt-1">
+                                    <i class="bi bi-check-circle-fill text-success"></i>
+                                    <small class="text-success fw-semibold">Lulus 2017</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="card edu-card h-100 border-0 shadow-sm">
+                            <div class="edu-card-top bg-info"></div>
+                            <div class="card-body p-4">
+                                <div class="edu-number">02</div>
+                                <span class="badge bg-info mb-2">2017 – 2021</span>
+                                <h5 class="card-title fw-bold mt-1">SMP</h5>
+                                <p class="card-text text-muted small">SMP Fatih Bilingual School</p>
+                                <hr>
+                                <div class="d-flex align-items-center gap-2">
+                                    <i class="bi bi-geo-alt-fill text-info"></i>
+                                    <small class="text-muted">Banda Aceh</small>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 mt-1">
+                                    <i class="bi bi-check-circle-fill text-success"></i>
+                                    <small class="text-success fw-semibold">Lulus 2021</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="card edu-card h-100 border-0 shadow-sm">
+                            <div class="edu-card-top bg-warning"></div>
+                            <div class="card-body p-4">
+                                <div class="edu-number">03</div>
+                                <span class="badge bg-warning text-dark mb-2">2021 – 2024</span>
+                                <h5 class="card-title fw-bold mt-1">SMA</h5>
+                                <p class="card-text text-muted small">SMA Labschool Unsyiah</p>
+                                <hr>
+                                <div class="d-flex align-items-center gap-2">
+                                    <i class="bi bi-geo-alt-fill text-warning"></i>
+                                    <small class="text-muted">Banda Aceh</small>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 mt-1">
+                                    <i class="bi bi-check-circle-fill text-success"></i>
+                                    <small class="text-success fw-semibold">Lulus 2024</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="card edu-card h-100 border-0 shadow-sm edu-card-active">
+                            <div class="edu-card-top bg-success"></div>
+                            <div class="card-body p-4">
+                                <div class="edu-number">04</div>
+                                <span class="badge bg-success mb-2">2024 – Sekarang</span>
+                                <h5 class="card-title fw-bold mt-1">Perguruan Tinggi</h5>
+                                <p class="card-text text-muted small">Universitas Syiah Kuala — Informatika</p>
+                                <hr>
+                                <div class="d-flex align-items-center gap-2">
+                                    <i class="bi bi-geo-alt-fill text-success"></i>
+                                    <small class="text-muted">Banda Aceh</small>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 mt-1">
+                                    <i class="bi bi-circle-fill text-success" style="font-size:10px;"></i>
+                                    <small class="text-success fw-semibold">Sedang Berlangsung</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tabel Bootstrap -->
+                <div class="section-header text-center mb-4">
+                    <h4 class="fw-bold">Ringkasan Tabel Pendidikan</h4>
+                </div>
+                <div class="table-responsive shadow-sm rounded-3 overflow-hidden">
+                    <table class="table table-hover table-striped align-middle mb-0">
+                        <thead class="table-dark">
+                            <tr>
+                                <th class="text-center">#</th>
+                                <th><i class="bi bi-journal-bookmark me-1"></i>Tingkat Pendidikan</th>
+                                <th><i class="bi bi-building me-1"></i>Nama Instansi</th>
+                                <th class="text-center"><i class="bi bi-calendar me-1"></i>Tahun Lulus</th>
+                                <th class="text-center">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="text-center fw-bold text-muted">1</td>
+                                <td><span class="badge bg-primary me-2">SD</span>Sekolah Dasar</td>
+                                <td>SD Fatih Bilingual School</td>
+                                <td class="text-center">2017</td>
+                                <td class="text-center"><span class="badge bg-success-soft text-success">✓ Lulus</span></td>
+                            </tr>
+                            <tr>
+                                <td class="text-center fw-bold text-muted">2</td>
+                                <td><span class="badge bg-info me-2">SMP</span>Sekolah Menengah Pertama</td>
+                                <td>SMP Fatih Bilingual School</td>
+                                <td class="text-center">2021</td>
+                                <td class="text-center"><span class="badge bg-success-soft text-success">✓ Lulus</span></td>
+                            </tr>
+                            <tr>
+                                <td class="text-center fw-bold text-muted">3</td>
+                                <td><span class="badge bg-warning text-dark me-2">SMA</span>Sekolah Menengah Atas</td>
+                                <td>SMA Labschool Unsyiah</td>
+                                <td class="text-center">2024</td>
+                                <td class="text-center"><span class="badge bg-success-soft text-success">✓ Lulus</span></td>
+                            </tr>
+                            <tr class="table-success">
+                                <td class="text-center fw-bold text-muted">4</td>
+                                <td><span class="badge bg-success me-2">S1</span>Perguruan Tinggi</td>
+                                <td>Universitas Syiah Kuala — Informatika</td>
+                                <td class="text-center">—</td>
+                                <td class="text-center"><span class="badge bg-primary">Aktif</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- TAB 2: PROYEK -->
+            <div class="tab-pane fade" id="proyek">
+                <div class="section-header text-center mb-4">
+                    <h2 class="section-title">Proyek Saya</h2>
+                    <div class="title-underline mx-auto"></div>
+                    <p class="text-muted mt-3">Karya yang telah saya kerjakan selama belajar</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="card project-card border-0 shadow-sm h-100">
+                            <div class="project-img-placeholder d-flex align-items-center justify-content-center">
+                                <i class="bi bi-laptop-fill display-3 text-white opacity-75"></i>
+                            </div>
+                            <div class="card-body p-4">
+                                <div class="d-flex justify-content-between align-items-start mb-2">
+                                    <h5 class="card-title fw-bold">Website Portofolio</h5>
+                                    <span class="badge bg-primary">HTML/CSS</span>
+                                </div>
+                                <p class="card-text text-muted small">Website portofolio personal dibangun menggunakan HTML, CSS murni, lalu diperbarui dengan Bootstrap 5.</p>
+                                <div class="d-flex gap-2 mt-3">
+                                    <span class="badge skill-badge"><i class="bi bi-filetype-html me-1"></i>HTML</span>
+                                    <span class="badge skill-badge"><i class="bi bi-filetype-css me-1"></i>CSS</span>
+                                    <span class="badge skill-badge"><i class="bi bi-bootstrap me-1"></i>Bootstrap</span>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-transparent border-0 px-4 pb-4">
+                                <a href="index.html" class="btn btn-primary-custom btn-sm px-3">
+                                    <i class="bi bi-eye me-1"></i>Lihat Proyek
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card project-card border-0 shadow-sm h-100 opacity-75">
+                            <div class="project-img-placeholder d-flex align-items-center justify-content-center" style="background: linear-gradient(135deg,#6c757d,#adb5bd);">
+                                <i class="bi bi-plus-circle display-3 text-white opacity-75"></i>
+                            </div>
+                            <div class="card-body p-4 text-center d-flex flex-column align-items-center justify-content-center" style="min-height:150px;">
+                                <h5 class="card-title fw-bold text-muted">Proyek Berikutnya</h5>
+                                <p class="card-text text-muted small">Proyek baru sedang dalam pengerjaan. Pantau terus!</p>
+                                <span class="badge bg-secondary mt-2">Coming Soon</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 3: SERTIFIKAT -->
+            <div class="tab-pane fade" id="sertifikat">
+                <div class="section-header text-center mb-4">
+                    <h2 class="section-title">Sertifikat</h2>
+                    <div class="title-underline mx-auto"></div>
+                    <p class="text-muted mt-3">Sertifikat dan penghargaan yang diraih</p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-7">
+                        <ul class="list-group list-group-flush shadow-sm rounded-3 overflow-hidden">
+                            <li class="list-group-item d-flex align-items-center gap-3 py-3 px-4">
+                                <div class="sertif-icon bg-primary-soft">
+                                    <i class="bi bi-award-fill text-primary"></i>
+                                </div>
+                                <div class="flex-grow-1">
+                                    <div class="fw-semibold">Pemrograman Web Dasar</div>
+                                    <small class="text-muted">Universitas Syiah Kuala · 2026</small>
+                                </div>
+                                <span class="badge bg-primary">Aktif</span>
+                            </li>
+                            <li class="list-group-item d-flex align-items-center gap-3 py-3 px-4">
+                                <div class="sertif-icon bg-success-soft">
+                                    <i class="bi bi-patch-check-fill text-success"></i>
+                                </div>
+                                <div class="flex-grow-1">
+                                    <div class="fw-semibold">Desain Grafis — Canva</div>
+                                    <small class="text-muted">Self-Learning · 2023</small>
+                                </div>
+                                <span class="badge bg-success">Selesai</span>
+                            </li>
+                            <li class="list-group-item d-flex align-items-center gap-3 py-3 px-4 opacity-50">
+                                <div class="sertif-icon" style="background:#f0f0f0;">
+                                    <i class="bi bi-hourglass-split text-secondary"></i>
+                                </div>
+                                <div class="flex-grow-1">
+                                    <div class="fw-semibold text-muted">JavaScript Essentials</div>
+                                    <small class="text-muted">Direncanakan · 2026</small>
+                                </div>
+                                <span class="badge bg-secondary">Rencana</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer-custom py-4 mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+                    <span class="fw-bold"><i class="bi bi-person-badge-fill me-1"></i>Faris Fudhaili</span>
+                    <span class="text-muted ms-2">— NPM: 2408107010040</span>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <small class="text-muted">&copy; 2026 Faris Fudhaili. Tugas Pemrograman Web — Universitas Syiah Kuala.</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        window.addEventListener('scroll', function () {
+            const navbar = document.getElementById('mainNavbar');
+            if (window.scrollY > 50) navbar.classList.add('scrolled');
+            else navbar.classList.remove('scrolled');
+        });
+    </script>
+</body>
+</html>
